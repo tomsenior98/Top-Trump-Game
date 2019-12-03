@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Card Game</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <!-- HTML for the header title for the page -->
+    <div class="header">
+        <div class="title">
+            <h1>Welcome to my Card Game</h1>
+        </div>
+    </div>
+    <!-- HTML for the cards displayed on the page *including images -->
+    <div class="card-holder">
+        <div class="card-1">
+            <img id="image1" src="./images/edu.jpeg" height="300px" width="200px" alt="card-1">
+        </div>
+        <div class="card-2">
+            <img id="image2" src="./images/theirry.jpg" height="300px" width="200px"  alt="card-1">
+        </div>
+    </div>
+    <br>
+    <!-- HTML for buttons -->
+    <div class="button-cards">
+        <div class="button-toggle">
+            <button id="toggle" onclick="randomNumber1()">Left Card</button>
+            <button id="toggle2" onclick="randomNumber2()">Right Card</button>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
