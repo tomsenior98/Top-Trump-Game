@@ -50,4 +50,5 @@ button{
     background:greenyellow;
     height: 30px;
     width: 200px;
+    transition: 1.0;
 }
